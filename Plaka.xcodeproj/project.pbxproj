@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC21FE9B2BA90ABB0002EBC8 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21FE9A2BA90ABB0002EBC8 /* City.swift */; };
+		DC21FEA22BA90C820002EBC8 /* LocalLicensePlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21FEA12BA90C820002EBC8 /* LocalLicensePlate.swift */; };
+		DC21FEA42BA90D550002EBC8 /* LocalLicensePlateModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC21FEA32BA90D550002EBC8 /* LocalLicensePlateModelView.swift */; };
+		DCB7AE372B9F8417009A717E /* PlakaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB7AE362B9F8417009A717E /* PlakaApp.swift */; };
+		DCB7AE3B2B9F841B009A717E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB7AE3A2B9F841B009A717E /* Assets.xcassets */; };
+		DCB7AE3E2B9F841B009A717E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB7AE3D2B9F841B009A717E /* Preview Assets.xcassets */; };
+		DCB7AE452B9F8667009A717E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB7AE442B9F8667009A717E /* Launch Screen.storyboard */; };
+		DCF53E0B2BAF88F6007941CE /* SearchbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF53E0A2BAF88F6007941CE /* SearchbarView.swift */; };
+		DCF53E0F2BAF8EFF007941CE /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF53E0E2BAF8EFF007941CE /* CellView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC21FE9A2BA90ABB0002EBC8 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		DC21FEA12BA90C820002EBC8 /* LocalLicensePlate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLicensePlate.swift; sourceTree = "<group>"; };
+		DC21FEA32BA90D550002EBC8 /* LocalLicensePlateModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalLicensePlateModelView.swift; sourceTree = "<group>"; };
+		DCB7AE332B9F8417009A717E /* Plaka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plaka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB7AE362B9F8417009A717E /* PlakaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlakaApp.swift; sourceTree = "<group>"; };
+		DCB7AE3A2B9F841B009A717E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCB7AE3D2B9F841B009A717E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCB7AE442B9F8667009A717E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DCF53E0A2BAF88F6007941CE /* SearchbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchbarView.swift; sourceTree = "<group>"; };
+		DCF53E0E2BAF8EFF007941CE /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCB7AE302B9F8417009A717E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC21FE9C2BA90AC90002EBC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC21FE9A2BA90ABB0002EBC8 /* City.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DC21FE9F2BA90C120002EBC8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DCF53E0C2BAF8EE3007941CE /* CellView */,
+				DCF53E092BAF8894007941CE /* SearchbarView */,
+				DC21FEA02BA90C1F0002EBC8 /* LocalPlatesView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		DC21FEA02BA90C1F0002EBC8 /* LocalPlatesView */ = {
+			isa = PBXGroup;
+			children = (
+				DC21FEA12BA90C820002EBC8 /* LocalLicensePlate.swift */,
+				DC21FEA32BA90D550002EBC8 /* LocalLicensePlateModelView.swift */,
+			);
+			path = LocalPlatesView;
+			sourceTree = "<group>";
+		};
+		DCB7AE2A2B9F8417009A717E = {
+			isa = PBXGroup;
+			children = (
+				DCB7AE352B9F8417009A717E /* Plaka */,
+				DCB7AE342B9F8417009A717E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB7AE342B9F8417009A717E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB7AE332B9F8417009A717E /* Plaka.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB7AE352B9F8417009A717E /* Plaka */ = {
+			isa = PBXGroup;
+			children = (
+				DC21FE9F2BA90C120002EBC8 /* Screens */,
+				DC21FE9C2BA90AC90002EBC8 /* Model */,
+				DCB7AE362B9F8417009A717E /* PlakaApp.swift */,
+				DCB7AE3A2B9F841B009A717E /* Assets.xcassets */,
+				DCB7AE3C2B9F841B009A717E /* Preview Content */,
+				DCB7AE442B9F8667009A717E /* Launch Screen.storyboard */,
+			);
+			path = Plaka;
+			sourceTree = "<group>";
+		};
+		DCB7AE3C2B9F841B009A717E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DCB7AE3D2B9F841B009A717E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DCF53E092BAF8894007941CE /* SearchbarView */ = {
+			isa = PBXGroup;
+			children = (
+				DCF53E0A2BAF88F6007941CE /* SearchbarView.swift */,
+			);
+			path = SearchbarView;
+			sourceTree = "<group>";
+		};
+		DCF53E0C2BAF8EE3007941CE /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				DCF53E0E2BAF8EFF007941CE /* CellView.swift */,
+			);
+			path = CellView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB7AE322B9F8417009A717E /* Plaka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB7AE412B9F841B009A717E /* Build configuration list for PBXNativeTarget "Plaka" */;
+			buildPhases = (
+				DCB7AE2F2B9F8417009A717E /* Sources */,
+				DCB7AE302B9F8417009A717E /* Frameworks */,
+				DCB7AE312B9F8417009A717E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plaka;
+			productName = Plaka;
+			productReference = DCB7AE332B9F8417009A717E /* Plaka.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB7AE2B2B9F8417009A717E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					DCB7AE322B9F8417009A717E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = DCB7AE2E2B9F8417009A717E /* Build configuration list for PBXProject "Plaka" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCB7AE2A2B9F8417009A717E;
+			productRefGroup = DCB7AE342B9F8417009A717E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB7AE322B9F8417009A717E /* Plaka */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB7AE312B9F8417009A717E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB7AE452B9F8667009A717E /* Launch Screen.storyboard in Resources */,
+				DCB7AE3E2B9F841B009A717E /* Preview Assets.xcassets in Resources */,
+				DCB7AE3B2B9F841B009A717E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB7AE2F2B9F8417009A717E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC21FEA42BA90D550002EBC8 /* LocalLicensePlateModelView.swift in Sources */,
+				DCB7AE372B9F8417009A717E /* PlakaApp.swift in Sources */,
+				DCF53E0F2BAF8EFF007941CE /* CellView.swift in Sources */,
+				DCF53E0B2BAF88F6007941CE /* SearchbarView.swift in Sources */,
+				DC21FEA22BA90C820002EBC8 /* LocalLicensePlate.swift in Sources */,
+				DC21FE9B2BA90ABB0002EBC8 /* City.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DCB7AE3F2B9F841B009A717E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCB7AE402B9F841B009A717E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCB7AE422B9F841B009A717E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Plaka/Preview Content\"";
+				DEVELOPMENT_TEAM = 88UZ42L7TB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Furkan.Plaka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCB7AE432B9F841B009A717E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Plaka/Preview Content\"";
+				DEVELOPMENT_TEAM = 88UZ42L7TB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Furkan.Plaka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB7AE2E2B9F8417009A717E /* Build configuration list for PBXProject "Plaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB7AE3F2B9F841B009A717E /* Debug */,
+				DCB7AE402B9F841B009A717E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB7AE412B9F841B009A717E /* Build configuration list for PBXNativeTarget "Plaka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB7AE422B9F841B009A717E /* Debug */,
+				DCB7AE432B9F841B009A717E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCB7AE2B2B9F8417009A717E /* Project object */;
+}
